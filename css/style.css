@@ -1,0 +1,230 @@
+/* Utility Classes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.display-4 {
+    font-size: 7rem !important;
+}
+
+.lead {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.btn-yellow {
+    background: #FF9F1C;
+    color: #fff;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-40 {
+    padding-top: 24rem;
+}
+
+.rounded {
+    border-radius: 300px;
+    padding: 15px 35px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+/* General */
+body {
+    color: #fff;
+}
+
+.abc {
+    padding: 10px 0 23px 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
+header,
+#media {
+    background: linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.52)),url('../img/mainbg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+#top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding: 0px 30px !important;
+}
+
+nav {
+    padding: 1rem 0;
+    transition: .7s;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.nav li a:hover {
+    color: #FF9F1C;
+    background: none;
+}
+
+.heading-color {
+    color: #FF9F1C;
+}
+
+header .btn {
+    transition: .5s;
+    border: 2px solid #FF9F1C;
+}
+
+.btn-yellow:hover {
+    background: transparent;
+    color: #fff;
+}
+
+#welcome {
+    background: #000;
+    color: #fff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#welcome i {
+    color: green;
+    font-size: 1.4rem;
+}
+
+#bg-video {
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.61)),url('http://kaflesajan.com.np/boot/5/assets/images/bg/youtube.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    /* outline: 1px solid #fff; */
+}
+
+.video i {
+    font-size: 30px;
+    border: 1px solid #fff;
+    color: #FF9F1C;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    padding-left: 6px;
+    background: #fff;
+}
+
+#testimonials {
+    color: #fff;
+    background: #000;
+    text-align: center;
+}
+
+#testimonials img {
+    border-radius: 50%;
+    max-width: 80%;
+    padding-bottom: 20px;
+}
+
+#testimonials .description {
+    margin-bottom: 20px;
+}
+
+#image-gallery {
+    background: #000;
+}
+
+#image-gallery img {
+    max-width: 100%;
+}
+
+#image-gallery .col-md-3 {
+    padding: 0;
+}
+
+#footer-area,
+#footer {
+    background: #16161E;
+    color: #fff;
+}
+
+#footer-area [class^="col"] {
+    /* outline: 1px solid #fff; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footer-area p {
+    line-height: 2.1;
+}
+
+.contact i {
+    font-size: 20px;
+    color: #FF9F1C;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FF9F1C;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-top: 20px;
+}
+.contact i:not(:last-child) {
+    margin-right: 10px;
+}
+
+.contact i:hover,
+input[type="submit"] {
+    background: #FF9F1C;
+    color: #fff;
+}
+
+.form-control {
+    padding: 20px 14px !important;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 12px 20px;
+    text-align: left;
+}
+
+#footer {
+    padding: 10px 0 5px 0;
+    text-align: center;
+    border-top:1px solid #242222;
+}
+
+#footer p {
+    line-height: 65px;
+    font-size: 1.5rem;
+}
